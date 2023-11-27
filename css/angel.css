@@ -1,0 +1,136 @@
+
+label[for='una'] {
+    background: rgba(66, 166, 184, 0.692);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline-flex;
+    cursor: pointer;
+    text-align: center;
+    left:0px;
+    bottom:370px;
+    margin:60px;
+    position: fixed;
+	cursor: pointer;
+}
+label[for='duha'] {
+    background:  rgba(66, 166, 184, 0.692);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline-flex;
+    margin-bottom: 20px;
+    cursor: pointer; 
+    text-align: center;
+    left:120px;
+    bottom:343px;
+    margin:90px;
+    position: fixed;
+    cursor: pointer;
+}
+label[for='tulo'] {
+    background:  rgba(66, 166, 184, 0.692);
+color: rgb(255, 255, 255);
+text-shadow: 0 0 10px black;
+border-radius: 5px;
+font-family: cursive;
+font-size: 20px;
+display: inline-flex;
+margin-bottom: 20px;
+cursor: pointer; 
+text-align: center;
+left:-32px;
+bottom:215px;
+margin:90px;
+position: fixed;
+cursor: pointer;
+}
+label[for='upat'] {
+    background:  rgba(66, 166, 184, 0.692);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline-flex;
+    margin-bottom: 20px;
+    cursor: pointer; 
+    text-align: center;
+    left:120px;
+    bottom:215px;
+    margin:90px;
+    position: fixed;
+    cursor: pointer;
+}
+
+.tap1{
+    position:relative;
+    border: solid 2px #3f3b00;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; 
+    background: url('https://scontent.fcgm1-1.fna.fbcdn.net/v/t39.30808-6/381640336_303973595670877_5108485466543604929_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE3tVYJWkNdf-dlp0x1PHylnaUuLaeGzW-dpS4tp4bNb8HhkXYwjHBxPXlA573kpbiQzI6ABzSc1ACm4IXYGlWe&_nc_ohc=wF68rHX809YAX-HDYC5&_nc_ht=scontent.fcgm1-1.fna&oh=00_AfBqZUSqvW65knrZ7nvURaJdmDw-NZBpXvsZ8X3eyGwMZw&oe=65540590') no-repeat;
+    background-position-y: -250px;
+    background-position-x: -300px;
+    height:200px;
+width:200px;
+margin: 90px;
+position: fixed;
+cursor: pointer;
+    text-align: center;
+    }
+    .tap2{
+    height:200px;
+    width:200px;
+    display:none;
+    background-color:green;
+    left:200px;
+    bottom:398px;
+    margin:90px;
+    }
+    .tap3{
+    height:200px;
+    width:200px;
+    display:none;
+    background-color:yellow;
+    left: -10px;
+    bottom:606px;
+    margin: 100px;
+    }
+   .tap4{
+    height:200px;
+    width:200px;
+    display:none;
+    background-color:blue;
+    left:290px;
+    bottom:990px;
+    margin:66px;
+    margin-left: 0px;
+    }
+    
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=checkbox]:checked + .tap {
+        display: block;
+    }
+    input[type=checkbox]:checked + .tap1 {
+        display: block;
+    }
+    input[type=checkbox]:checked + .tap2 {
+        display: block;
+    }
+    input[type=checkbox]:checked + .tap3 {
+        display: block;
+    }
+    input[type=checkbox]:checked + .tap4 {
+        display: block;
+    }
+    
