@@ -65,7 +65,7 @@ font-size:30px;
     font-size:30px;
 }
 .app-nav-btn-active {
-    background-color: rgb(76, 97, 121);
+    background-color: rgba(76, 97, 121, 0.712);
     color: rgb(0, 0, 0);
 
 }
