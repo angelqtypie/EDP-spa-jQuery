@@ -118,8 +118,9 @@ a{
 .imgbox #me{
 
     margin-left: 950px;
-    width:55%;
+    width:40%;
     height:55%;
+    border-radius: 50%;
 }
 .imgbox img{
     position: relative;
@@ -139,9 +140,11 @@ a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-60%, -60%) rotate(0deg);
-    width: 50%;
-    margin-left: 450px ;
+    transform: translate(-70%, -70%) rotate(60deg);
+    width: 40%;
+    height:40%;
+    margin: 100px ;
+    margin-left: 500px ;
     filter: saturate(200%);
     animation: animate 4s linear infinite;
 }
