@@ -226,3 +226,8 @@ section .animate{
 #about.show-animate .animate{
     transform: translateX(0);
 }
+.dj{
+    margin-top:75px;
+    text-shadow:0 0  10px rgb(255, 0, 242);
+    text-align: center;
+}
