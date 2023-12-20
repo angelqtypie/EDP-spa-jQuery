@@ -17,7 +17,7 @@ label[for='pirs'] {
     height:150px;
     width:150px;
     display:none;
-    border: solid 2px #141306;
+    border: solid 2px #ff0077;
     background: url('https://scontent.fcgm1-1.fna.fbcdn.net/v/t39.30808-6/378466719_862930235458061_7403443481542864862_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeG4iYzaTY3DoldTwMeaZX0NG8Fp5G5ZGuEbwWnkblka4SFXiiOLhioR2g_h1-hC9wbjL1_J_I_Dqcd1uAxUD0OM&_nc_ohc=9HnpBmpfChAAX_ujMac&_nc_ht=scontent.fcgm1-1.fna&oh=00_AfCtGnaKoFgKtNS-xp7wEfgph_fgOzZ4KHVurvnbj8lZDg&oe=65852F98');
     background-size: cover;
     width:150px;
@@ -28,8 +28,9 @@ cursor: pointer;
    
     }
     .tap1:hover{
-        background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/404882201_1369541083687336_1600108053119512347_n.jpg?stp=dst-jpg_p160x160&_nc_cat=109&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawtRK47yoy9P5TXlUX2s7KXHJ3e0G7Dgpccnd7QbsOHu8wB_2W-S4OpwThHU2yf62xzAL3Y22Qxgln9cI1q80&_nc_ohc=4v_wAaoyMRkAX_4RPYy&_nc_oc=AQnCG9_cQCyEs8mhGIkPm92xo0g3epqHK_tSzhKCy2WQY4-fu6el0c8Yne1Zc9s5fMaK_3Ihnbuh9gAUcUX-JQuq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR8e6f9QVaDGqpFnEFC4-hS2L3nCLfrwV5kEPklmhkCYQ&oe=65A7375C');
-        background-position-y:-100px;
+        background-image: url('https://78.media.tumblr.com/3ab5b5fa45a249fafa6bf8d71b284756/tumblr_mjpxatH1JN1qdwzvco1_500.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     
     input[type=checkbox] {
