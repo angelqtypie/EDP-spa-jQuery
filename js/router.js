@@ -1,7 +1,7 @@
 
 //for typing effects
 var typingEffect = new Typed(".multiText",{
-  strings : ["coder", "web developer", "into joseph", "HAUAHUHAU"],
+  strings : ["coder", "web developer", "programmer", "broke"],
   loop : true,
   typeSpeed : 100,
   backSpeed : 80,
@@ -24,18 +24,3 @@ else {
 }
     }
 )}
-
-//for smooth scroll on navigation
-document.querySelectorAll('a[href^="#"]').forEach(anchor =>{
-    anchor.addEventListener('click',function(e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior:'smooth'
-        });
-    });
-});
-window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-})
